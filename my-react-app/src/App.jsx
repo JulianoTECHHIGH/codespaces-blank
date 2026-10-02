@@ -24,8 +24,8 @@ const App = () => {
           <form>
             <h2>Create account</h2>
             <div className='buttonRow'>
-              <button><img src={google}>Signup with Google</img></button>
-              <button><img src={facebook}>Signup with Facebook</img></button>
+              <button><img src={google} width='23px' height='27px'>Signup with Google</img></button>
+              <button><img src={facebook} width='23px' height='27px'>Signup with Facebook</img></button>
               
             </div>
             <p className='or'>- OR -</p>
@@ -34,7 +34,7 @@ const App = () => {
               <input placeholder='Email' type='email' required>  </input>
               <div className='passwordBox'>
                 <input placeholder='Password' type='password' required> </input>
-                <img src={lock}></img>
+                <img src={lock} width='24px' height='24px'></img>
               </div>
 
             </div>
