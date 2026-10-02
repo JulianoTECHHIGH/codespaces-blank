@@ -3,6 +3,8 @@ import React from 'react'
 //Import images
 import logo from './assets/Abstraction.png'
 import weblogo from './assets/pngegg.png'
+import google from './assets/google.png'
+import facebook from './assets/facebook.png'
 //CSS Import/Link
 import App from './App.css'
 //Declaring the app function 
@@ -20,7 +22,12 @@ const App = () => {
           <option value="En">English (UK)</option>
           </select>
           <form>
-
+            <h2>Create account</h2>
+            <div className='buttonRow'>
+              <button><img src={google}>Signup with Google</img></button>
+              <button><img src={facebook}>Signup with Facebook</img></button>
+              
+            </div>
           </form>
       </div>
     </div>
