@@ -28,6 +28,19 @@ const App = () => {
               <button><img src={facebook}>Signup with Facebook</img></button>
               
             </div>
+            <p className='or'>- OR -</p>
+            <div className='inputs'>
+              <input placeholder='Full Name' type='text' required> </input>
+              <input placeholder='Email' type='email' required>  </input>
+              <div className='passwordBox'>
+                <input placeholder='Password' type='password' required> </input>
+                <img src={lock}></img>
+              </div>
+
+            </div>
+
+            <button classname='Create'>Create Account</button>
+            <p>Already have an account?</p>
           </form>
       </div>
     </div>
